@@ -1,0 +1,13 @@
+set_from_resource $i3-wm.screen.laptop  i3-wm.screen.laptop  "eDP-1"
+set_from_resource $i3-wm.screen.external i3-wm.screen.external "DP-3"
+
+workspace 1  output $i3-wm.screen.external
+workspace 2  output $i3-wm.screen.external
+workspace 3  output $i3-wm.screen.external
+workspace 4  output $i3-wm.screen.external
+workspace 5  output $i3-wm.screen.external
+workspace 6  output $i3-wm.screen.external
+workspace 7  output $i3-wm.screen.laptop
+workspace 8  output $i3-wm.screen.laptop
+workspace 9  output $i3-wm.screen.laptop
+workspace 10 output $i3-wm.screen.laptop

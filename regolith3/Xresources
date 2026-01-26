@@ -1,0 +1,77 @@
+## Wallpaper
+regolith.wallpaper.file: /usr/share/backgrounds/wallpaper.jpg
+regolith.wallpaper.options: zoom
+regolith.lockscreen.wallpaper.color.primary: #14171C
+
+## Icons
+gtk.icon_theme_name: Yaru
+
+## Layout
+wm.gaps.inner.size: 25
+wm.program.unclutter: :
+wm.window.border.size: 2
+
+## Bar
+wm.bar.trayoutput: none
+wm.bar.position: top
+i3xrocks.date.format2: %d/%m %H:%M
+
+## Bar colors - main
+wm.bar.background.color: #f6f8fa
+wm.bar.statusline.color: #f6f8fa
+wm.bar.separator.color: #f6f8fa
+
+## Bar colors - workspace
+wm.bar.workspace.focused.border.color: #218bff
+wm.bar.workspace.focused.background.color: #218bff
+wm.bar.workspace.focused.text.color: #f6f8fa
+
+wm.bar.workspace.active.border.color: #d0d7de
+wm.bar.workspace.active.background.color: #d0d7de
+wm.bar.workspace.active.text.color: #24292f
+
+wm.bar.workspace.inactive.border.color: #f6f8fa
+wm.bar.workspace.inactive.background.color: #f6f8fa
+wm.bar.workspace.inactive.text.color: #8c959f
+
+wm.bar.workspace.urgent.border.color: #fa4549
+wm.bar.workspace.urgent.background.color: #fa4549
+wm.bar.workspace.urgent.text.color: #f6f8fa
+
+## Bar colors - window
+wm.client.focused.color.border: #218bff
+wm.client.unfocused.color.border: #d0d7de
+wm.client.urgent.color.border: #fa4549
+
+## Remap vertical and horizontal window orientation
+wm.binding.split_h: semicolon
+wm.binding.split_v: apostrophe
+
+## Workspace names
+wm.workspace.01.name: 1:<span font_desc='CommitMono Nerd Font 12'>(1)</span>
+wm.workspace.02.name: 2:<span font_desc='CommitMono Nerd Font 12'>(2)</span>
+wm.workspace.03.name: 3:<span font_desc='CommitMono Nerd Font 12'>(3)</span>
+wm.workspace.04.name: 4:<span font_desc='CommitMono Nerd Font 12'>(4)</span>
+wm.workspace.05.name: 5:<span font_desc='CommitMono Nerd Font 12'>(5)</span>
+wm.workspace.06.name: 6:<span font_desc='CommitMono Nerd Font 12'>(6)</span>
+wm.workspace.07.name: 7:<span font_desc='CommitMono Nerd Font 12'>(7)</span>
+wm.workspace.08.name: 8:<span font_desc='CommitMono Nerd Font 12'>(8)</span>
+wm.workspace.09.name: 9:<span font_desc='CommitMono Nerd Font 12'>(9)</span>
+wm.workspace.10.name: 10:<span font_desc='CommitMono Nerd Font 12'>(10)</span>
+wm.workspace.11.name: 11:<span font_desc='CommitMono Nerd Font 12'>(11)</span>
+wm.workspace.12.name: 12:<span font_desc='CommitMono Nerd Font 12'>(12)</span>
+wm.workspace.13.name: 13:<span font_desc='CommitMono Nerd Font 12'>(13)</span>
+wm.workspace.14.name: 14:<span font_desc='CommitMono Nerd Font 12'>(14)</span>
+wm.workspace.15.name: 15:<span font_desc='CommitMono Nerd Font 12'>(15)</span>
+wm.workspace.16.name: 16:<span font_desc='CommitMono Nerd Font 12'>(16)</span>
+wm.workspace.17.name: 17:<span font_desc='CommitMono Nerd Font 12'>(17)</span>
+wm.workspace.18.name: 18:<span font_desc='CommitMono Nerd Font 12'>(18)</span>
+wm.workspace.19.name: 19:<span font_desc='CommitMono Nerd Font 12'>(19)</span>
+
+## Force font everywhere
+gnome.terminal.font: CommitMono Nerd Font 12
+gtk.document_font_name: CommitMono Nerd Font 12
+gtk.font_name: CommitMono Nerd Font 12
+gtk.monospace_font_name: CommitMono Nerd Font 12
+i3xrocks.value.font: CommitMono Nerd Font 12
+wm.bar.font: CommitMono Nerd Font 12
