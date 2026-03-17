@@ -31,6 +31,10 @@ eval "$(fzf --zsh)"
 
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Load Symfony CLI completions
+# generated with `symfony self:completion zsh > ~/.symfony_completion.sh`
+source ~/.symfony_completion.sh
+
 alias g=git
 alias n=nvim
 
