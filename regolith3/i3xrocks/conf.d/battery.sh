@@ -39,19 +39,19 @@ else
     VALUE_COLOR=$(xrescat i3xrocks.value.color white)
 fi
 
-if [ -z "$BATT_PERCENT" ]; then
-    exit 0
-elif [ "$BATT_PERCENT" -ge 0 ] && [ "$BATT_PERCENT" -le 20 ]; then
-    LABEL_ICON=$(xrescat i3xrocks.label.battery0 E)
-elif [ "$BATT_PERCENT" -ge 20 ] && [ "$BATT_PERCENT" -le 50 ]; then
-    LABEL_ICON=$(xrescat i3xrocks.label.battery20 L)
-elif [ "$BATT_PERCENT" -ge 50 ] && [ "$BATT_PERCENT" -le 80 ]; then
-    LABEL_ICON=$(xrescat i3xrocks.label.battery50 M)
-elif [ "$BATT_PERCENT" -ge 80 ] && [ "$BATT_PERCENT" -le 98 ]; then
-    LABEL_ICON=$(xrescat i3xrocks.label.battery80 F)
-else
-    LABEL_ICON=$(xrescat i3xrocks.label.battery100 C)
-fi
+case $((BATT_PERCENT / 10)) in
+  0) LABEL_ICON="󰁺" ;;
+  1) LABEL_ICON="󰁻" ;;
+  2) LABEL_ICON="󰁼" ;;
+  3) LABEL_ICON="󰁽" ;;
+  4) LABEL_ICON="󰁾" ;;
+  5) LABEL_ICON="󰁿" ;;
+  6) LABEL_ICON="󰂀" ;;
+  7) LABEL_ICON="󰂁" ;;
+  8) LABEL_ICON="󰂂" ;;
+  9) LABEL_ICON="󰁹" ;;
+  10) LABEL_ICON="󰁹" ;;
+esac
 
 if [ -z "$CHARGE_STATE" ]; then
     exit 0
