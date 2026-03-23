@@ -56,11 +56,11 @@ esac
 if [ -z "$CHARGE_STATE" ]; then
     exit 0
 elif [ "$CHARGE_STATE" == "discharging" ]; then
-    CHARGE_ICON=$(xrescat i3xrocks.label.dn D)
+    CHARGE_ICON="$(xrescat i3xrocks.label.dn D) "
 elif [ "$CHARGE_STATE" == "charging" ]; then
-    CHARGE_ICON=$(xrescat i3xrocks.label.up C)
+    CHARGE_ICON="$(xrescat i3xrocks.label.up C) "
 else
-    CHARGE_ICON=$(echo -e '\u2003')
+    CHARGE_ICON=" "
 fi
 
 ICON_SPAN="<span font_desc=\"${VALUE_FONT}\" color=\"${LABEL_COLOR}\">$LABEL_ICON</span>"
