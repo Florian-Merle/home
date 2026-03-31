@@ -1,6 +1,7 @@
 # Power mode indicator
 #
-# Displays current power mode.
+# Displays current power mode. Click to cycle between
+# performance, balanced, and power-saver modes.
 [power_mode]
 command=/usr/share/i3xrocks/conf.d/power_mode.sh
 interval=1
