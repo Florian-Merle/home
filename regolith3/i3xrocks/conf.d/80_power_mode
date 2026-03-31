@@ -1,0 +1,6 @@
+# Power mode indicator
+#
+# Displays current power mode.
+[power_mode]
+command=/usr/share/i3xrocks/conf.d/power_mode.sh
+interval=1
