@@ -120,6 +120,8 @@ See https://phpactor.readthedocs.io/en/master/usage/standalone.html#manual-insta
 
 ```
 sudo ln -s ~/your/projects/phpactor/bin/phpactor /usr/local/bin/phpactor
+
+ln -s ~/home/phpactor ~/.config/phpactor
 ```
 
 ## Docker
