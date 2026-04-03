@@ -3,3 +3,4 @@
 # Displays notification count
 [rofication]
 interval=1
+command=/usr/share/i3xrocks/conf.d/rofication.sh
