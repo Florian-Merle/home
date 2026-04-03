@@ -3,8 +3,10 @@ padding.x = 20
 padding.y = 20
 dynamic_padding=true
 
-[font]
+[mouse]
+hide_when_typing=true
 
+[font]
 normal.family = "CommitMono Nerd Font"
 bold.family = "CommitMono Nerd Font"
 italic.family = "CommitMono Nerd Font"
