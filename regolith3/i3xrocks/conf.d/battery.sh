@@ -55,8 +55,6 @@ esac
 
 if [ -z "$CHARGE_STATE" ]; then
     exit 0
-elif [ "$CHARGE_STATE" == "discharging" ]; then
-    CHARGE_ICON="$(xrescat i3xrocks.label.dn D) "
 elif [ "$CHARGE_STATE" == "charging" ]; then
     CHARGE_ICON="$(xrescat i3xrocks.label.up C) "
 else

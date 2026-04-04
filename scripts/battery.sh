@@ -21,7 +21,6 @@ esac
 
 case "$status" in
   Charging) dir="↑" ;;
-  Discharging) dir="↓" ;;
   *) arrow="" ;;
 esac
 
