@@ -2,7 +2,7 @@
   editconf = !nvim ~/.gitconfig
   graph = log --all --decorate --oneline --graph
   st = status --untracked-files=all
-  co = checkout
+  co = !~/home/scripts/git-co.sh
   cb = checkout -b
   cm = commit -m
   cma = commit -m "a"
