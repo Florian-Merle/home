@@ -101,6 +101,10 @@ https://neovim.io/
 
 https://github.com/Florian-Merle/minimum-viable-neovim-config
 
+```
+brew install neovim tree-sitter-cli
+```
+
 ## tmux
 
 https://github.com/tmux/tmux & https://github.com/tmux-plugins/tpm
