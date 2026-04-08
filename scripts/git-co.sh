@@ -10,6 +10,16 @@ FZF_OPTS="--layout=reverse --no-info --height=10"
 checkout_with_query() {
     local query="$1"
 
+    # Exact match in local branches first, then remotes
+    local exact
+    exact=$(git for-each-ref refs/heads/ refs/remotes/ --format='%(refname:short)' \
+        | grep -x "$query" | head -1)
+
+    if [ -n "$exact" ]; then
+        git checkout "$exact"
+        return
+    fi
+
     local branch
     branch=$(git for-each-ref --sort=committerdate refs/heads/ --format='%(refname:short)' \
         | fzf $FZF_OPTS --select-1 --exit-0 -q "$query")
