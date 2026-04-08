@@ -21,8 +21,8 @@ esac
 
 case "$status" in
   Charging) dir="↑" ;;
-  *) arrow="" ;;
+  *) dir="" ;;
 esac
 
-# using kargs for trimming
+# using xargs for trimming
 echo "$icon $capacity% $dir" | xargs
