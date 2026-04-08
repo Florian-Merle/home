@@ -6,5 +6,8 @@
         "/vendor/**/tests/**/*",
         "/var/cache/**/*",
         "/vendor/composer/**/*"
+    ],
+    "worse_reflection.additive_stubs": [
+        ".castor.stub.php"
     ]
 }
