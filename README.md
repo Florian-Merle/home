@@ -146,6 +146,18 @@ sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
+## Claude Code
+
+https://claude.ai/code
+
+```sh
+npm install -g @anthropic-ai/claude-code
+
+ln -s ~/home/claude/AGENTS.md ~/.claude/AGENTS.md
+ln -s ~/home/claude/CLAUDE.md ~/.claude/CLAUDE.md
+ln -s ~/home/claude/settings.json ~/.claude/settings.json
+```
+
 ## Other
 
 Disable touchscreen

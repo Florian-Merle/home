@@ -1,5 +1,6 @@
 .fmerle
 .phpactor.json
 CLAUDE.md
+!claude/CLAUDE.md
 .claude
 .castor.stub.php
