@@ -12,6 +12,7 @@ sudo apt install regolith-desktop regolith-session-flashback regolith-look-ayu
 ln -s ~/home/regolith3/Xresources ~/.config/regolith3/Xresources
 ln -s ~/home/regolith3/i3 ~/.config/regolith3/i3
 ln -s ~/home/regolith3/i3xrocks/conf.d /usr/share/i3xrocks/conf.d
+ln -s ~/home/regolith3/picom/config ~/.config/regolith3/picom/config
 ln -s ~/home/wallpaper.jpg /usr/share/backgrounds/wallpaper.jpg
 ```
 
