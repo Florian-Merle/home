@@ -161,6 +161,9 @@ npm install -g @anthropic-ai/claude-code
 ln -s ~/home/claude/AGENTS.md ~/.claude/AGENTS.md
 ln -s ~/home/claude/CLAUDE.md ~/.claude/CLAUDE.md
 ln -s ~/home/claude/settings.json ~/.claude/settings.json
+mkdir -p ~/.claude/agents ~/.claude/skills
+ln -s ~/home/claude/skills/talk ~/.claude/skills/talk
+ln -s ~/home/claude/skills/pr-description ~/.claude/skills/pr-description
 ```
 
 ## Other
